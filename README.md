@@ -48,7 +48,10 @@ Here's a walkthrough of implemented required features:
 
 ## Notes
 
-Describe any challenges encountered while building the app or any additional context you'd like to add.
+A challenges came up during the build:
+
+- **Expired image URLs** — YouTube CDN profile picture URLs (e.g. `yt3.googleusercontent.com`) expire and rotate frequently. Swapping to YouTube video thumbnail URLs (`img.youtube.com/vi/{id}/maxresdefault.jpg`) solved the issue since those are permanent.
+
 
 ## License
 
