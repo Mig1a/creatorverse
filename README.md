@@ -4,7 +4,7 @@ Submitted by: **Million Aboye**
 
 About this web app: **A React + Supabase app to discover and manage your favourite content creators. Supports full CRUD — add, view, edit, and delete creators, each with a name, URL, description, and image.**
 
-Time spent: **👉🏿 X** hours
+Time spent: 10 hours
 
 ## Required Features
 
