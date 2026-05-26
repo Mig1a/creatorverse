@@ -1,0 +1,59 @@
+/* ── Design Tokens ─────────────────────────────────── */
+:root {
+  --color-bg:        #0f0f1a;
+  --color-surface:   #1a1a2e;
+  --color-surface2:  #16213e;
+  --color-border:    #2a2a4a;
+  --color-primary:   #7c3aed;
+  --color-primary-h: #6d28d9;
+  --color-accent:    #a78bfa;
+  --color-danger:    #dc2626;
+  --color-danger-h:  #b91c1c;
+  --color-text:      #e2e8f0;
+  --color-muted:     #94a3b8;
+  --color-heading:   #f1f5f9;
+  --radius:          12px;
+  --radius-sm:       6px;
+  --shadow:          0 4px 24px rgba(0,0,0,.45);
+  --transition:      0.2s ease;
+  --font:            'Inter', system-ui, -apple-system, sans-serif;
+  --mono:            ui-monospace, Consolas, monospace;
+}
+
+/* ── Reset ─────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: var(--font);
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--color-text);
+  background: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  color: var(--color-heading);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+a { color: var(--color-accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+code {
+  font-family: var(--mono);
+  font-size: 0.85em;
+  background: var(--color-surface2);
+  padding: 2px 6px;
+  border-radius: var(--radius-sm);
+  color: var(--color-accent);
+}
